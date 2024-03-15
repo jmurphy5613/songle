@@ -1,0 +1,81 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.song-image-container {
+    width: 350px;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.content {
+    background-color: #1E1E1E;
+    width: 350px;
+    height: 35px;
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.names {
+    display: flex;
+    align-items: flex-end;
+    width: 80%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.title {
+    font-size: 20px;
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.artist {
+    font-size: 12px;
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+    color: #626262;
+    display: flex;
+    align-items: center;
+    margin-left: 0.5rem;
+}
+
+.box1 {
+    width: 325px;
+    height: 10px;
+    background-color: rgba(98, 98, 98, 0.5);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.box {
+    width: 300px;
+    height: 10px;
+    background-color: rgba(98, 98, 98, 0.3);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.music-graph-container {
+    width: 350px;
+}
+
+.external-icon-container {
+    height: 20px;
+    width: 20px;
+    position: relative;
+    cursor: pointer;
+}
